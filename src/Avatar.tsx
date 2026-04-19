@@ -102,7 +102,7 @@ function setCache(key: string, value: RGB) {
   cache.set(key, value);
 
   if (cache.size > MAX_SIZE) {
-    const oldestKey = cache.keys().next().value;
+    const oldestKey = cache.keys().next().value!;
     cache.delete(oldestKey);
   }
 }

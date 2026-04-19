@@ -10,8 +10,8 @@
     "dist"
   ],
   "scripts": {
-  "build": "tsc"
-},
+    "build": "tsc"
+  },
   "keywords": [
     "react-native",
     "component"
@@ -21,6 +21,7 @@
     "react-native": ">=0.81.5"
   },
   "devDependencies": {
+    "@types/react": "^19.2.14",
     "typescript": "^6.0.3"
   }
 }

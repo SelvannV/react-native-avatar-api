@@ -1,0 +1,1 @@
+export { default as Avatar, defaultGenerator, clearCache } from './src/Avatar';

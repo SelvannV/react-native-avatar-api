@@ -2,10 +2,10 @@
   "compilerOptions": {
     "outDir": "dist",
     "declaration": true,
-    "jsx": "react",
+    "jsx": "react-jsx",
     "module": "ESNext",
     "target": "ES2017",
-    "moduleResolution": "node"
+    "skipLibCheck": true
   },
   "include": ["src", "index.ts"]
 }
