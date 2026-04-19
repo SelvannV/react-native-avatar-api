@@ -1,0 +1,26 @@
+{
+  "name": "react-native-avatar-api",
+  "description": "A lighweight and offline avatar API for React Native.",
+  "author": "SelvannV",
+  "license": "MIT",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+  "build": "tsc"
+},
+  "keywords": [
+    "react-native",
+    "component"
+  ],
+  "peerDependencies": {
+    "react": ">=19",
+    "react-native": ">=0.81.5"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
+}
