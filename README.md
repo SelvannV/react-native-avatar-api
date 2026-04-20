@@ -2,7 +2,7 @@
 
 ![npm](https://img.shields.io/npm/v/react-native-avatar-api?logo=nodedotjs) 
 ![npm downloads](https://img.shields.io/npm/dw/react-native-avatar-api)
-![size](https://img.shields.io/badge/lightweight-23KB-green)
+![size](https://img.shields.io/badge/lightweight-19KB-green)
 ![typescript](https://img.shields.io/badge/typescript-support-blue?logo=typescript)
 
 A lightweight, offline avatar component for React Native that generates consistent colors from usernames.
