@@ -24,10 +24,12 @@ export type Config = {
     | "900";
   fontColor?: RGB;
 
+  borderRadius?: number | "rounded"
   size?: number;
 };
 
 const DEFAULT_CONFIG = {
+  borderRadius: "rounded",
   size: 48,
   fontSize: 24,
   fontWeight: "600" as const,
@@ -66,7 +68,7 @@ export default function Avatar({
     <View
       style={[
         styles.avatar,
-        { width: mergedConfig.size, backgroundColor: `rgb(${r}, ${g}, ${b})` },
+        { width: mergedConfig.size, backgroundColor: `rgb(${r}, ${g}, ${b})`, borderRadius: mergedConfig.borderRadius == "rounded" ? 999 : mergedConfig.borderRadius },
       ]}
       accessibilityLabel={`Avatar for ${safeUsername}`}
       accessibilityRole="image"
@@ -89,7 +91,6 @@ const styles = StyleSheet.create({
   avatar: {
     justifyContent: "center",
     alignItems: "center",
-    borderRadius: 999,
     aspectRatio: 1,
   },
 });
