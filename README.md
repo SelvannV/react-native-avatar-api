@@ -106,12 +106,6 @@ import { defaultGenerator, clearCache } from "react-native-avatar-api";
 
 ---
 
-## 💾 Changelogs
-
-* **0.1.0**: Initial release
-
----
-
 ## 📄 License
 
 MIT 2026
