@@ -61,7 +61,6 @@ export function clearCache() {
  */
 export function defaultGenerator(username) {
     const normalized = username.trim().toLowerCase();
-    // ✅ cache hit
     const cached = cache.get(normalized);
     if (cached)
         return cached;
@@ -78,12 +77,11 @@ export function defaultGenerator(username) {
         g: normalize(rgb.g),
         b: normalize(rgb.b),
     };
-    // ✅ cache store
     setCache(normalized, result);
     return result;
 }
 function hashString(str) {
-    let hash = 2166136261; // FNV offset basis
+    let hash = 2166136261;
     for (let i = 0; i < str.length; i++) {
         hash ^= str.charCodeAt(i);
         hash = Math.imul(hash, 16777619);
