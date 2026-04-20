@@ -1,4 +1,4 @@
-# react-native-avatar-api (0.1.0)
+# react-native-avatar-api
 
 ![npm](https://img.shields.io/npm/v/react-native-avatar-api?logo=nodedotjs) 
 ![npm downloads](https://img.shields.io/npm/dw/react-native-avatar-api)
