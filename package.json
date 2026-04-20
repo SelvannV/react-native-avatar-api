@@ -1,27 +1,49 @@
 {
   "name": "react-native-avatar-api",
-  "description": "A lighweight and offline avatar API for React Native.",
+  "description": "A lightweight and offline avatar API for React Native.",
   "author": "SelvannV",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "0.1.0",
+
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
-  "scripts": {
-    "build": "tsc"
+
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    }
   },
+
+  "files": ["dist"],
+
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+
   "keywords": [
     "react-native",
+    "avatar",
     "component"
   ],
+
   "peerDependencies": {
     "react": ">=19",
     "react-native": ">=0.81.5"
   },
+
   "devDependencies": {
     "@types/react": "^19.2.14",
-    "typescript": "^6.0.3"
+    "typescript": "^5.5.4"
+  },
+
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/SelvannV/react-native-avatar-api.git"
+},
+"homepage": "https://github.com/SelvannV/react-native-avatar-api#readme",
+  "bugs": {
+    "url": "https://github.com/SelvannV/react-native-avatar-api/issues"
   }
 }

@@ -1,8 +1,8 @@
-# react-native-avatar-api (1.0.0)
+# react-native-avatar-api (0.1.0)
 
 ![npm](https://img.shields.io/npm/v/react-native-avatar-api?logo=nodedotjs) 
 ![npm downloads](https://img.shields.io/npm/dw/react-native-avatar-api)
-![size](https://img.shields.io/badge/lightweight-19KB-green)
+![size](https://img.shields.io/badge/lightweight-22KB-green)
 ![typescript](https://img.shields.io/badge/typescript-support-blue?logo=typescript)
 
 A lightweight, offline avatar component for React Native that generates consistent colors from usernames.
@@ -108,7 +108,7 @@ import { defaultGenerator, clearCache } from "react-native-avatar-api";
 
 ## 💾 Changelogs
 
-* **1.0.0**: Initial release
+* **0.1.0**: Initial release
 
 ---
 
